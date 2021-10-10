@@ -1,0 +1,71 @@
+@media (max-width:1280px) {
+    .back::before {
+        top: -70%;
+        left: -25%;
+    }
+    .back::after {
+        bottom: -70%;
+        right: -25%;
+    }
+}
+
+@media (max-width:1024px) {
+    .back::before {
+        top: -114%;
+        left: -45%;
+    }
+    .back::after {
+        bottom: -114%;
+        right: -45%;
+    }
+}
+
+@media (max-width:1024px) and (height: 1366px) {
+    .back::before {
+        top: -20%;
+        left: -45%;
+    }
+    .back::after {
+        bottom: -20%;
+        right: -45%;
+    }
+}
+
+@media (max-width:768px) {
+    .back::before {
+        top: -52%;
+        left: -57%;
+    }
+    .back::after {
+        bottom: -52%;
+        right: -57%;
+    }
+}
+
+@media (max-width:414px) {
+    main {
+        width: 90%;
+    }
+    .back::before {
+        top: -71%;
+        left: -172%;
+    }
+    .back::after {
+        bottom: -71%;
+        right: -172%;
+    }
+}
+
+@media (max-width:280px) {
+    main {
+        width: 90%;
+    }
+    .back::before {
+        top: -112%;
+        left: -253%;
+    }
+    .back::after {
+        bottom: -112%;
+        right: -253%;
+    }
+}
